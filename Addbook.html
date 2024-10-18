@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo-section">
+                <div class="logo">Library <span>System</span></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/Dashboard.html">Dashboard</a></li>
+                <li><a href="/Addbook.html">Add Books</a></li>
+                <li><a href="/borrow.html">Borrow</a></li>
+                <li><a href="/return.html">Return</a></li>
+                <li><a href="#">Inventory</a></li>
+            </ul>
+            <div class="logout-section">
+                <a href="/LandingPage.html" class="logout">Logout</a>
+            </div>
+        </nav>
+         <!-- Main Content -->
+         <div class="main-content">
+            <div class="form-container">
+                <h2>Book Issue Form</h2>
+                <p>Enter the details below to issue a book to a student.</p>
+
+                <form>
+                    <div class="form-group">
+                        <label for="student-name">Student Name</label>
+                        <input type="text" id="student-name" placeholder="Enter Student Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="roll-no">Roll Number</label>
+                        <input type="text" id="roll-no" placeholder="Enter Roll Number">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="book-issued">Book Issued</label>
+                        <input type="text" id="book-issued" placeholder="Enter Book Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="issue-date">Issue Date</label>
+                        <input type="date" id="issue-date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="return-date">Return Date</label>
+                        <input type="date" id="return-date">
+                    </div>
+
+                    <div class="form-actions">
+                        <button type="submit" class="save-btn">Save</button>
+                        <button type="button" class="cancel-btn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+
+
+</body>
+</html>
